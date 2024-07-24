@@ -1,2 +1,3 @@
 #my first python program 
-print("Hello World")
+print('Hello World')
+print('Another one')
