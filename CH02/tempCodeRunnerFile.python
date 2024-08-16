@@ -1,0 +1,10 @@
+CAN_PER_PACK = 6
+userInput = input (' Enter 6-pack price :')
+packPrice = float (userInput)
+
+userInput = input('Enter volume per can:')
+canVolume = float (userInput)
+packVolume = canVolume * CAN_PER_PACK
+pricePerOunce = packPrice / packVolume 
+
+print ('Price Per Ounce %10.2f'%(pricePerOunce))
